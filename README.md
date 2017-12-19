@@ -32,7 +32,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Getting Started
 
 1. Alter the payload_config.ini file with your search criteria (Have a look at Sparerooms 'Advanced Search' to help you understand the values of each attribute)
-2. Configure
+2. Configure emailer_config.ini with your gmail authentication details
 3. Run spareroom_scraper.py module by specifying the configuration file to be used
 
 ## Authors
