@@ -22,12 +22,12 @@ These instructions will get you a copy of the project up and running on your loc
 3. Clone the repository to a local directory inside the new virtual environment
 4. Use pip to install the required libraries from requirements.txt
 
-## Getting Started
+### Getting Started
 
 1. Alter the payload_config.ini file with your search criteria (Have a look at Sparerooms 'Advanced Search' to help you understand the values of each attribute)
 2. Configure emailer_config.ini with your gmail authentication details
 
-## Usage
+### Usage
 
 Navigate to the root directory of the project (spareroom-scraper/) and run the executable as:
 
@@ -37,6 +37,6 @@ bin/scrape spareroomScraper/conf/payload_config.ini
 
 You can create your own payload_config.ini files for separate searches.
 
-## Authors
+### Authors
 
 * **Christos Liontos**
