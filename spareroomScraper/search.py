@@ -8,9 +8,9 @@ from bs4 import BeautifulSoup
 import requests
 
 # Local imports
-from custom_exceptions import BadSelector
-from emailer import Emailer
-from payload import Payload
+from spareroomScraper.custom_exceptions import BadSelector
+from spareroomScraper.emailer import Emailer
+from spareroomScraper.payload import Payload
 
 
 DOMAIN = 'https://www.spareroom.co.uk/'
@@ -190,9 +190,3 @@ class Search:
         # Send an email with the results
         emailer = Emailer('emailer_config.ini')
         emailer.send_gmail(''.join(search_results))
-
-
-if __name__ == "__main__":
-    # Perform a new search
-    new_search = Search('payload_config.ini', 1, 20)
-    new_search.search()

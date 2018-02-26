@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # Local imports
-from config_loader import ConfigLoader
+from spareroomScraper.config_loader import ConfigLoader
 
 
 class Emailer:

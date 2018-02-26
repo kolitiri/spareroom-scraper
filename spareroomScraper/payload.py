@@ -4,7 +4,7 @@ import datetime
 import time
 
 # Local imports
-from config_loader import ConfigLoader
+from spareroomScraper.config_loader import ConfigLoader
 
 
 class Payload:
